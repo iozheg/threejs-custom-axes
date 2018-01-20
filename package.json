@@ -1,0 +1,38 @@
+{
+  "name": "customaxes",
+  "version": "1.0.0",
+  "description": "Custom axes for three.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iozheg/threejs-custom-axes.git"
+  },
+  "keywords": [
+    "threejs",
+    "axes"
+  ],
+  "author": "netsevak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iozheg/threejs-custom-axes/issues"
+  },
+  "homepage": "https://github.com/iozheg/threejs-custom-axes#readme",
+  "dependencies": {
+    "@types/three": "^0.89.3",
+    "three": "^0.88.0",
+    "three-orbit-controls": "^82.1.0",
+    "ts-loader": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "awesome-typescript-loader": "^3.4.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
