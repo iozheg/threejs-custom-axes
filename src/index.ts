@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 let OrbitControls = require('three-orbit-controls')(THREE);
-import CustomAxes from './customaxis';
+import CustomAxes from './customaxes';
 
 let axesRenderer: THREE.WebGLRenderer;
 let axesScene: THREE.Scene;
